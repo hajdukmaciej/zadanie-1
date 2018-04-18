@@ -19,24 +19,22 @@
 		<input type="tel" id="tel" placeholder="Telefon" name="tel"><br><br>
 
 		<label for="city">Wybierz miasto</label><br>
-		<select id="city">
+		<select id="city" name="miasto">
 			<option value="Kraków" selected>Kraków</option>
 			<option value="Gdańsk">Gdańsk</option>
 			<option value="Warszawa">Warszawa</option>
 		</select><br><br>
 
 		<label>Wybierz płeć</label><br>
-		<input type="radio" value="mezczyzna" name="gender">Mężczyzna<br>
-		<input type="radio" value="kobieta" name="gender">Kobieta<br>
-		<input type="radio" value="inny" name="gender">Inny<br><br>
+		<input type="radio" value="mezczyzna" name="płeć">Mężczyzna<br>
+		<input type="radio" value="kobieta" name="płeć">Kobieta<br>
+		<input type="radio" value="inny" name="płeć">Inny<br><br>
 
 		<label for="checkbox">,,Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101, poz. 926 ze zm.)."
-			<input type="checkbox" id="checkbox">
-			<span class="checkmark"></span>
+			<input type="checkbox" id="checkbox" name="klauzula1">
 			</label><br>
 		<label for="checkbox2">Wyrażam zgodę na wszystko i wszystkich
-			<input type="checkbox" id="checkbox2">
-			<span class="checkmark"></span>
+			<input type="checkbox" id="checkbox2" name="klauzula2">
 		</label><br><br>
 
 		<label for="textarea">Miejsce na wiadomość</label><br>
