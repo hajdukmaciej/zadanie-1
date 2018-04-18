@@ -10,7 +10,7 @@
 <body>
 	<form action="https://formspree.io/hajdukmaciej3@gmail.com" method="post">
 		<label for="name">Wpisz imię</label><br>
-		<input type="name" id="name" placeholder="Imię" name="name"><br><br>
+		<input type="text" id="name" placeholder="Imię" name="name"><br><br>
 		<label for="surname">Wpisz nazwisko</label><br>
 		<input type="text" id="surname" placeholder="Nazwisko" name="surname"><br><br>
 		<label for="email">Wpisz email</label><br>
@@ -40,7 +40,9 @@
 		</label><br><br>
 
 		<label for="textarea">Miejsce na wiadomość</label><br>
-		<textarea id="textarea" rows="15" cols="25"></textarea>
+		<textarea name="textarea" id="textarea" rows="15" cols="25" maxlength="300"></textarea>
+		
+		<input type="submit" value="Wyślij formularz">
 
 	</form>
 
